@@ -1885,9 +1885,9 @@ nav {
     text-align: right;
     padding: 20px 0;
     z-index: 5;
-    background-image: -moz-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
+    /* background-image: -moz-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
     background-image: -webkit-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
-    background-image: -ms-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%);
+    background-image: -ms-linear-gradient(0deg, #4cd4e3 0%, #3e69fe 100%); */
   }
 }
 
@@ -1976,11 +1976,11 @@ body {
   }
 }
 
-.p1-gradient-bg, .primary-btn:after, .banner-area, .featured-area, .story-area, .footer-social a:after {
-  background-image: -moz-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
+.p1-gradient-bg, .primary-btn:after,  .featured-area, .story-area, .footer-social a:after {
+    
   background-image: -webkit-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
-  background-image: -ms-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%);
-}
+  background-image: -ms-linear-gradient(0deg, #3e69fe 0%, #4cd4e3 100%); 
+} 
 
 .p1-gradient-color, .single-work-process .work-icon-box span, .single-feature .primary-btn:hover span, .single-remark .primary-btn span, .story-area .primary-btn span, .contact-form .primary-btn span {
   background: -webkit-linear-gradient(0deg, #3e69fe, #4cd4e3);
